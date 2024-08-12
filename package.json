@@ -1,0 +1,19 @@
+{
+  "name": "node-cli-application",
+  "version": "1.0.0",
+  "description": "Node— CLI application",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefania Guta",
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.4",
+    "yargs": "^17.7.2"
+  }
+}
